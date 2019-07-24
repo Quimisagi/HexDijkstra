@@ -45,7 +45,8 @@ board[2][4] = "B";*/
     }
 }*/
 
-console.log(minimax(0, true, -Infinity, Infinity));
+//console.log(minimax(0, true, -Infinity, Infinity));
+console.log(calculateHeuristic());
 
 
 function initMinimeTable(blue){
